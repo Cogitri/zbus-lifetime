@@ -1,0 +1,15 @@
+[package]
+name = "zbus-lifetime"
+version = "0.1.0"
+authors = ["Rasmus Thomsen <oss@cogitri.dev>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+apk-tools-sys = { path="./apk-tools-sys" }
+serde="1"
+zbus="1"
+zvariant="2"
+zvariant_derive="2"
+

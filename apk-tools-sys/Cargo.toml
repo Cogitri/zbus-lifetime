@@ -1,0 +1,16 @@
+[package]
+name = "apk-tools-sys"
+version = "0.1.0"
+authors = ["Rasmus Thonmsen <oss@cogitri.dev>"]
+edition = "2018"
+links = "apk"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+system-deps = "1.3"
+
+[package.metadata.system-deps]
+openssl = "1"
+zlib = "1"
